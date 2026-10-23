@@ -1,4 +1,4 @@
-# BAP2: generación de rostros de hijos a partir de sus padres
+# BAP2: generación de rostros de hijos a partir de la genética de sus progenitores
 
 **Atención biparental con *Heredity Gate* sobre Stable Diffusion + IP-Adapter-FaceID**
 
