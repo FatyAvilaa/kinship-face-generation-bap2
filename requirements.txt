@@ -1,0 +1,34 @@
+# Versions used on Google Colab (Python 3.12, NVIDIA GPU).
+# IP-Adapter is installed separately:
+#   pip install git+https://github.com/tencent-ailab/IP-Adapter.git
+
+torch>=2.1
+torchvision
+diffusers==0.27.2
+transformers==4.39.3
+huggingface_hub==0.23.0
+accelerate
+safetensors
+peft==0.10.0
+
+# Face embeddings (ArcFace / InsightFace)
+insightface
+onnxruntime-gpu
+onnx
+onnx2torch
+
+# Data, metrics and visualization
+numpy
+pandas
+pillow
+opencv-python
+scikit-learn
+tqdm
+matplotlib
+seaborn
+pytorch-fid
+torchmetrics
+torch-fidelity
+
+# Tests
+pytest

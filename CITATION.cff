@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+title: "BAP2: Biparental Attention with a Heredity Gate for Generating Children's Faces from Their Parents"
+type: software
+authors:
+  - family-names: Avila
+    given-names: Fatima
+    alias: FatyAvilaa
+repository-code: "https://github.com/FatyAvilaa/kinship-face-generation-bap2"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-28
+keywords:
+  - stable diffusion
+  - ip-adapter
+  - kinship
+  - face generation
+  - cross-attention

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# FIW dataset: photos of real people, downloaded separately (see data/README.md)
+data/raw/
+data/processed/
+data/embeddings/
+
+# Large outputs or outputs with generated faces
+results/eval/**/img_*/
+results/eval/**/fid_ready*/
+results/figs*/
+*.jpg
+*.jpeg
+
+# Intermediate checkpoints (only the final one is versioned)
+results/ckpt/*.pt
+results/ckpt/**/bap2_s1563.pt
+results/ckpt/**/bap2_s3126.pt
+
+# OS files
+desktop.ini
+.DS_Store
+Thumbs.db

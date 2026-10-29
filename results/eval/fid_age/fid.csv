@@ -1,0 +1,4 @@
+variant,FID,n_real,n_generated,real_dir,generated_dir,description,fid_image_size
+BAP2_lambda0,193.67876515607588,208,208,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/real,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/bap2_l0,BAP2 with parent_scale=0.0,512
+NoGate_alpha05,192.88120299291867,208,208,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/real,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/nogate,"BAP2 NoGate fixed alpha=0.5, parent_scale=0.1",512
+BAP2_lambda01,193.02623765722154,208,208,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/real,/content/drive/MyDrive/Notebook4/results/eval/fid_age/fid_ready/bap2_l01,"BAP2 learned gate, parent_scale=0.1",512
